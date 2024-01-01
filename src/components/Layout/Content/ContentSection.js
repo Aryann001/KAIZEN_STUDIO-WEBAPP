@@ -19,7 +19,7 @@ const ContentSection = () => {
 
   useEffect(() => {
     if (isInView) {
-      animate(scope.current, { animation: "popup 2s forwards 0s ease-in-out" });
+      animate(scope.current, { animation: "popup 2s forwards -1s ease-in-out" });
     }
   }, [isInView, animate, scope]);
 
