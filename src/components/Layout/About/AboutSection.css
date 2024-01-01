@@ -1,0 +1,138 @@
+.about {
+  width: 100vw;
+  max-width: 100%;
+  height: max-content;
+  background-image: url("../../../assets/HeroBg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+
+.about > div {
+  padding: 7vmax 0;
+}
+
+.about::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100vw;
+  max-width: 100%;
+  object-fit: cover;
+  z-index: 1;
+  background-color: #0000008c;
+}
+
+.aboutContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 7vmax;
+}
+
+.aboutContainer > div:first-child > h3 {
+  text-align: start;
+  font-size: 3vmax;
+  color: #e6c068;
+  font-family: serif;
+  position: relative;
+  z-index: 2;
+}
+
+.aboutContainer > div:last-child {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+
+.aboutContainer > div:last-child > div {
+  display: flex;
+  gap: 2vmax;
+}
+
+.aboutContainer > div:last-child > div > div:first-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutContainer > div:last-child > div > div:last-child {
+  display: flex;
+  flex-direction: column;
+  gap: 2vmax;
+  width: 30%;
+}
+
+.aboutContainer > div:last-child > div > div:last-child > h4 {
+  font-size: 1.8vmax;
+  color: #dfac35;
+  font-family: serif;
+  position: relative;
+  z-index: 2;
+}
+
+.a-card1 > div:last-child > h4 {
+  text-align: start;
+}
+
+.a-card1 > div:last-child > div > p {
+  text-align: start;
+}
+
+.a-card2 > div:last-child > h4 {
+  text-align: end;
+}
+
+.a-card2 > div:last-child > div > p {
+  text-align: end;
+}
+
+.aboutContainer > div:last-child > div > div:last-child > div > p {
+  font-size: 1.2vmax;
+  color: #e6c068;
+  position: relative;
+  z-index: 2;
+}
+
+.aboutImage {
+  width: 20vmax;
+  border-radius: 100%;
+  position: relative;
+  transform: translateY(-2.5vmax);
+  z-index: 2;
+}
+
+.a-card2 {
+  justify-content: flex-start;
+  flex-direction: row-reverse;
+}
+
+@media screen and (max-width: 1050px) {
+  .aboutContainer > div:last-child {
+    gap: 5vmax;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .aboutContainer > div:last-child {
+    gap: 6vmax;
+  }
+
+  .aboutContainer > div:last-child > div {
+    flex-direction: column;
+  }
+
+  .aboutContainer > div:last-child > div > div:last-child {
+    width: 60%;
+    align-self: center;
+  }
+
+  .aboutImage {
+    transform: none;
+  }
+}

@@ -1,0 +1,123 @@
+.service {
+  width: 100vw;
+  max-width: 100%;
+  height: max-content;
+  background-image: url("../../../assets/HeroBg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+
+.service > div {
+  padding: 7vmax 0;
+}
+
+.service::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100vw;
+  max-width: 100%;
+  object-fit: cover;
+  z-index: 1;
+  background-color: #0000008c;
+}
+
+.serviceContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5vmax;
+}
+
+.serviceContainer > div:first-child > h3 {
+  text-align: center;
+  font-size: 3vmax;
+  color: #e6c068;
+  font-family: serif;
+  position: relative;
+  z-index: 2;
+}
+
+.serviceContainer > div:last-child {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.serviceContainer > div:last-child > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2vmax;
+  margin: 1vmax 2vmax;
+}
+
+.serviceContainer > div:last-child > div > div {
+  overflow: hidden;
+  border-radius: 1.5vmax;
+  width: 100%;
+  /* background-color: #e6c068; */
+  z-index: 2;
+}
+
+/* .s-card1 {
+  animation: popup 1s forwards;
+  transition: all ease-in-out;
+}
+
+.s-card2 {
+  animation: popup 3s forwards;
+  transition: all ease-in-out;
+}
+
+.s-card3 {
+  animation: popup 5s forwards;
+  transition: all ease-in-out;
+} */
+
+.serviceContainer > div:last-child > div > div > img {
+  width: 100%;
+}
+
+.serviceContainer > div:last-child > div > h4 {
+  text-align: center;
+  font-size: 1.5vmax;
+  color: #dfac35;
+  font-family: serif;
+  position: relative;
+  z-index: 2;
+}
+
+.serviceContainer > div:last-child > div > p {
+  text-align: center;
+  font-size: 1vmax;
+  color: #e6c068;
+  margin: 0 2.5vmax;
+  position: relative;
+  z-index: 2;
+}
+
+@media screen and (max-width: 1050px) {
+  .serviceContainer > div:last-child {
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 4vmax;
+  }
+
+  .serviceContainer > div:first-child > h3 {
+    font-size: 2.2vmax;
+  }
+
+  .serviceContainer > div:last-child > div > h4 {
+    font-size: 1.8vmax;
+  }
+ 
+  .serviceContainer > div:last-child > div > p {
+    font-size: 1.5vmax;
+  }
+}

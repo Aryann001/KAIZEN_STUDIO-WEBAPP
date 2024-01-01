@@ -1,0 +1,116 @@
+.process {
+  width: 100vw;
+  max-width: 100%;
+  position: relative;
+}
+
+.processStatic {
+  width: 100vw;
+  max-width: 100%;
+  height: 100vh;
+  top: 0;
+  position: sticky;
+  background: url("../../../assets/ContentBg.png");
+}
+
+.processStatic::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100vw;
+  max-width: 100%;
+  object-fit: cover;
+  z-index: 1;
+  background-color: #0000008c;
+}
+
+.processCardContainer {
+  position: relative;
+  display: flex;
+  padding: 4vmax;
+  inset: 0;
+}
+
+.processCardContainer > div:first-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.processCardContainer > div:first-child > img {
+  width: 30vmax;
+  z-index: 2;
+  transition: all 5s ease-in-out;
+  animation: animate2 5s infinite 0s;
+}
+
+/* .processCardContainerBack {
+    position: relative !important;
+    transition: all ease-in-out;
+} */
+
+.processCardContainer > div {
+  width: 50%;
+}
+
+.processCard {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+
+.processCard > div {
+  width: 65%;
+  height: 50%;
+  background: #1a1917;
+  padding: 2vmax;
+  border-radius: 1.5vmax;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.5vmax;
+  box-shadow: 0 0 1vmax #e6c06882;
+}
+
+.processCard > div > img {
+  width: 5vmax;
+}
+
+.processCard > div > h3 {
+  font-size: 2vmax;
+  color: aliceblue;
+}
+
+@keyframes processAnimation {
+  0% {
+    transform: scale(1);
+    visibility: hidden;
+  }
+  50% {
+    transform: scale(1.1);
+    visibility: visible;
+  }
+  100% {
+    transform: scale(1);
+    visibility: visible;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .processCardContainer {
+    flex-direction: column;
+  }
+
+  .processCardContainer > div:first-child > img {
+    display: none;
+  }
+
+  .processCardContainer > div {
+    width: 100%;
+  }
+}

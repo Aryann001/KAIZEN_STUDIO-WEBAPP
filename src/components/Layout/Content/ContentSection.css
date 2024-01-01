@@ -1,0 +1,396 @@
+.content {
+  width: 100vw;
+  max-width: 100%;
+  height: max-content;
+  /* background-image: url("../../../assets/HeroBg.png"); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #1a1917;
+  overflow: hidden;
+  padding: 7vmax 0;
+  padding-bottom: 9vmax;
+}
+
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2vmax;
+}
+
+.contentContainer > div:first-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contentContainer > div:first-child > div {
+  position: relative;
+}
+
+.contentContainer > div:first-child > div > span {
+  position: absolute;
+}
+
+.contentContainer > div:first-child > div > span > img {
+  width: 10vmax;
+}
+
+.ccspan-1 {
+  bottom: -70%;
+  left: 10%;
+  transform: rotate(10deg);
+}
+
+.ccspan-2 {
+  top: 20%;
+  right: -5%;
+}
+
+.ccspan-3 {
+  top: -20%;
+  left: -15%;
+}
+
+.ccspan-3 > img {
+  width: 4vmax !important;
+}
+
+.contentContainer > div:first-child > div > h3 {
+  text-align: center;
+  font-size: 3vmax;
+  color: #e6c068;
+  font-family: serif;
+}
+
+.cch-1 {
+  transform: translateX(20%);
+  color: white !important;
+  display: flex;
+  justify-content: flex-start;
+  gap: 1.5vmax;
+}
+
+.cch-1 > span {
+  font-size: 5vmax;
+  color: #e6c068;
+}
+
+.cch-2 {
+  transform: translateX(-20%);
+  display: flex;
+  color: white !important;
+  justify-content: flex-end;
+  gap: 1.5vmax;
+}
+
+.cch-2 > span {
+  font-size: 5vmax;
+  color: #e6c068 !important;
+}
+
+.cch-3 {
+  transform: translateX(10%);
+  font-size: 5vmax !important;
+  margin-top: 1vmax;
+}
+
+.contentContainer > div:last-child {
+  display: flex;
+  gap: 5vmax;
+  justify-content: center;
+  align-items: center;
+}
+
+.contentContainer > div:last-child > div {
+  display: flex;
+  gap: 3vmax;
+  justify-content: center;
+  align-items: center;
+}
+
+.contentContainer > div:last-child > div > div {
+  margin: 0px 2vmax;
+  position: relative;
+}
+
+.mobileImage > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mobileImage > div > div {
+  width: 100%;
+  overflow: hidden;
+}
+
+.mobileImage > div > div:first-child > video {
+  width: 85%;
+  transform: translate(9%, 4%);
+  border-radius: 1vmax 1vmax 0 0;
+}
+
+.mobileImage > div > div:last-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e6c068;
+  width: 85%;
+  height: 6vmax;
+  border-radius: 0 0 1vmax 1vmax;
+  overflow: hidden;
+}
+
+.mobileImage > div > div:last-child > div {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mobileImage > div > div:last-child > div > div {
+  display: flex;
+  gap: 1vmax;
+  align-items: center;
+  justify-content: center;
+}
+
+.mobileImage > div > div:last-child > div > div > img {
+  width: 2vmax;
+  border-radius: 100%;
+}
+
+.mobileImage > div > div:last-child > div > div > h3 {
+  color: #1a1917;
+  font-size: 1.5vmax;
+}
+
+.mobileImage > div > div:last-child > div > p {
+  color: #1a1917;
+  font-size: 1.2vmax;
+}
+
+.mobileImage {
+  width: 17vmax;
+  height: 34vmax;
+  transition: all 4s ease-in-out;
+  position: relative;
+  background-image: url("../../../assets/mobile.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  object-fit: contain;
+}
+
+.mi-1 {
+  transform: translateY(-20%) rotate(-6deg);
+  animation: mobileAnimate1 4s infinite;
+  margin-bottom: 10vmax;
+}
+
+.mi-2 {
+  transform: translateY(20%) rotate(-6deg);
+  animation: mobileAnimate2 4s infinite;
+  animation-delay: 0.6s;
+  margin-top: 18vmax;
+}
+
+.mi-3 {
+  transform: translateY(20%) rotate(6deg);
+  animation: mobileAnimate3 4s infinite;
+  animation-delay: 1s;
+  margin-top: 10vmax;
+}
+
+.mi-4 {
+  transform: translateY(-20%) rotate(6deg);
+  animation: mobileAnimate4 4s infinite;
+  animation-delay: 0.3s;
+  margin-bottom: 18vmax;
+}
+
+@keyframes mobileAnimate1 {
+  0% {
+    transform: translateY(-2%) rotate(-6deg);
+  }
+  50% {
+    transform: translateY(2%) rotate(-6deg);
+  }
+  100% {
+    transform: translateY(-2%) rotate(-6deg);
+  }
+}
+
+@keyframes mobileAnimate2 {
+  0% {
+    transform: translateY(-2%) rotate(-6deg);
+  }
+  50% {
+    transform: translateY(2%) rotate(-6deg);
+  }
+  100% {
+    transform: translateY(-2%) rotate(-6deg);
+  }
+}
+
+@keyframes mobileAnimate3 {
+  0% {
+    transform: translateY(-2%) rotate(6deg);
+  }
+  50% {
+    transform: translateY(2%) rotate(6deg);
+  }
+  100% {
+    transform: translateY(-2%) rotate(6deg);
+  }
+}
+
+@keyframes mobileAnimate4 {
+  0% {
+    transform: translateY(-2%) rotate(6deg);
+  }
+  50% {
+    transform: translateY(2%) rotate(6deg);
+  }
+  100% {
+    transform: translateY(-2%) rotate(6deg);
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  @keyframes mobileAnimate1 {
+    0% {
+      transform: translateY(-2%) rotate(15deg);
+    }
+    50% {
+      transform: translateY(2%) rotate(15deg);
+    }
+    100% {
+      transform: translateY(-2%) rotate(15deg);
+    }
+  }
+
+  @keyframes mobileAnimate4 {
+    0% {
+      transform: translateY(-2%) rotate(-4deg);
+    }
+    50% {
+      transform: translateY(2%) rotate(-4deg);
+    }
+    100% {
+      transform: translateY(-2%) rotate(-4deg);
+    }
+  }
+
+  .contentContainer > div:last-child {
+    flex-direction: column;
+  }
+
+  .contentContainer {
+    gap: 4vmax;
+  }
+
+  .mobileImage {
+    width: 30vmax;
+    height: 60vmax;
+  }
+
+  .mobileImage > div > div:last-child {
+    height: 11vmax;
+  }
+
+  .mi-3 {
+    transform: translateY(-20%) rotate(10deg);
+    animation: mobileAnimate1 4s infinite;
+    margin-bottom: 5vmax;
+  }
+
+  .mi-4 {
+    transform: translateY(20%) rotate(10deg);
+    animation: mobileAnimate4 4s infinite;
+    margin-top: 10vmax;
+  }
+
+  .ccspan-1 {
+    bottom: -70%;
+    right: 0% !important;
+    transform: translateX(60%);
+  }
+}
+
+@media screen and (max-width: 750px) {
+  @keyframes mobileAnimate1 {
+    0% {
+      transform: translateY(-2%) rotate(15deg);
+    }
+    50% {
+      transform: translateY(2%) rotate(15deg);
+    }
+    100% {
+      transform: translateY(-2%) rotate(15deg);
+    }
+  }
+
+  @keyframes mobileAnimate4 {
+    0% {
+      transform: translateY(-2%) rotate(-4deg);
+    }
+    50% {
+      transform: translateY(2%) rotate(-4deg);
+    }
+    100% {
+      transform: translateY(-2%) rotate(-4deg);
+    }
+  }
+
+  .mi-3 {
+    transform: translateY(-20%) rotate(10deg);
+    animation: mobileAnimate1 4s infinite;
+    margin-bottom: 5vmax;
+  }
+
+  .mi-4 {
+    transform: translateY(-20%) rotate(-4deg);
+    animation: mobileAnimate4 4s infinite;
+    animation-delay: 0.3s;
+    margin-bottom: 18vmax;
+  }
+
+  .contentContainer > div:first-child > h3 {
+    font-size: 2.2vmax;
+  }
+
+  .mobileImage {
+    width: 20vmax;
+    height: 40vmax;
+  }
+
+  .mobileImage > div > div:last-child {
+    height: 7vmax;
+  }
+
+  .tiktok {
+    left: 8vmax;
+    top: 6vmax;
+  }
+
+  .instagram {
+    right: 8vmax;
+    bottom: 8vmax;
+  }
+
+  .contentContainer > div:first-child > div > h3 {
+    font-size: 1.8vmax;
+  }
+
+  .cch-1 > span,
+  .cch-2 > span,
+  .cch-3 {
+    font-size: 4vmax !important;
+  }
+
+  .ccspan-2 > img {
+    width: 8vmax !important;
+  }
+}

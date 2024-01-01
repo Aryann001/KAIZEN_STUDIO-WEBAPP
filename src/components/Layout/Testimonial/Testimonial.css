@@ -1,0 +1,68 @@
+.testimonial {
+  height: max-content;
+  padding: 4vmax 0;
+  padding-top: 7vmax;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #1a1917;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2vmax;
+}
+
+.testimonial > div {
+  display: flex;
+  gap: 3vmax;
+}
+
+.testimonialHeadingContainer {
+  padding: 5vmax 0;
+  padding-bottom: 10vmax;
+  position: relative;
+  transition: all ease-in-out;
+}
+
+.testimonialHeadingContainer > span {
+  position: absolute;
+}
+
+.testimonialHeadingContainer > span > svg {
+  color: #e6c068;
+  font-size: 4vmax;
+}
+
+.testimonialHeadingContainer > h1 {
+  font-size: 5vmax;
+  color: white;
+  text-align: center;
+}
+
+.testimonialHeadingContainer > h1 > span {
+  color: #e6c068;
+}
+
+.thf-1 {
+  top: 2%;
+  left: 15%;
+  transform: rotate(10deg);
+}
+
+.thf-2 {
+  right: 25%;
+  top: 5%;
+  transform: rotate(-20deg);
+}
+
+.thf-2 > svg {
+  font-size: 3vmax !important;
+}
+
+.thf-3 {
+  bottom: 18%;
+  left: 35%;
+  transform: rotate(20deg);
+}
