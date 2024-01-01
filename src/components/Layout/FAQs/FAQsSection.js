@@ -11,6 +11,7 @@ const FAQsSection = () => {
   const [open2, setOpen2] = useState(false);
   const [open3, setOpen3] = useState(false);
   const [open4, setOpen4] = useState(false);
+  const [open5, setOpen5] = useState(false);
 
   const [scope, animate] = useAnimate();
   const isInView = useInView(scope);
@@ -139,16 +140,16 @@ const FAQsSection = () => {
             {/*  */}
             <div className="FAQsContent">
               <div>
-                <div onClick={() => setOpen4(!open4)}>
+                <div onClick={() => setOpen5(!open5)}>
                   <h2>Can I request revisions to the edited video?</h2>
                   <span>
                     <IoIosArrowDown
-                      className={open4 === true ? `openFaq` : `closeFaq`}
+                      className={open5 === true ? `openFaq` : `closeFaq`}
                     />
                   </span>
                 </div>
                 {/*  */}
-                <div className={open4 === true ? `show` : `notShow`}>
+                <div className={open5 === true ? `show` : `notShow`}>
                   Yes, we allow revisions, and our policy details the number of
                   revisions included with each package.
                 </div>

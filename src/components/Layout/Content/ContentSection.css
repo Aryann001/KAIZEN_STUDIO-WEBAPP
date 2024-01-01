@@ -345,17 +345,35 @@
     }
   }
 
+  .contentContainer {
+    gap: 20vmax;
+  }
+
+  .contentContainer > div:last-child {
+    gap: 10vmax;
+  }
+
+  .contentContainer > div:last-child > div {
+    gap: 10vmax;
+    flex-direction: column;
+  }
+
+  .mi-1,
+  .mi-2 {
+    margin: 0 !important;
+  }
+
   .mi-3 {
     transform: translateY(-20%) rotate(10deg);
     animation: mobileAnimate1 4s infinite;
-    margin-bottom: 5vmax;
+    margin: 0 !important;
   }
 
   .mi-4 {
     transform: translateY(-20%) rotate(-4deg);
     animation: mobileAnimate4 4s infinite;
     animation-delay: 0.3s;
-    margin-bottom: 18vmax;
+    margin: 0 !important;
   }
 
   .contentContainer > div:first-child > h3 {
@@ -363,12 +381,12 @@
   }
 
   .mobileImage {
-    width: 20vmax;
-    height: 40vmax;
+    width: 25vmax;
+    height: 50vmax;
   }
 
   .mobileImage > div > div:last-child {
-    height: 7vmax;
+    height: 9vmax;
   }
 
   .tiktok {
