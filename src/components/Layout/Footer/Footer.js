@@ -30,7 +30,7 @@ const Footer = () => {
   const fmt = new Intl.DateTimeFormat("en-US", {
     timeStyle: "long",
     timeZone,
-    hour12: false
+    hour12: false,
   });
 
   return (
@@ -55,26 +55,26 @@ const Footer = () => {
           <div className="f-1-3">
             <Link
               className="parallax-button"
-              href="mailto:aryanbaghel.dev@gmail.com"
+              href="mailto:asimsahilk@gmail.com"
               onMouseMove={mouseMoveHandler}
               style={{
                 "--x": `${position.x}px`,
                 "--y": `${position.y}px`,
               }}
             >
-              aryanbaghel.dev@gmail.com
+              asimsahilk@gmail.com
             </Link>
             {/*  */}
             <Link
               className="parallax-button"
-              href="tel:7999190099"
+              href="tel:7976718018"
               onMouseMove={mouseMoveHandler}
               style={{
                 "--x": `${position.x}px`,
                 "--y": `${position.y}px`,
               }}
             >
-              7999190099
+              7976718018
             </Link>
           </div>
         </div>
