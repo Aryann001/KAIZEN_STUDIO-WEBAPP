@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import "./ContentSection.css";
-import Aryan from "../../../assets/Aryan.jpeg";
 import v1 from "../../../assets/videos/v1.mp4";
 import v2 from "../../../assets/videos/v2.mp4";
 import v3 from "../../../assets/videos/v3.mp4";
