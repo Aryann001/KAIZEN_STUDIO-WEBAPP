@@ -161,8 +161,8 @@
   }
 
   .aboutContainer > div:last-child > div > div:last-child {
-    width: 60%;
-    align-self: center;
+    width: 20vmax;
+    align-self: center !important;
   }
 
   .aboutImage {

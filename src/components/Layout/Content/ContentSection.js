@@ -9,17 +9,20 @@ import Arrow from "../../../assets/arrow.png";
 import Star1 from "../../../assets/Hero.png";
 import Star2 from "../../../assets/Hero2.png";
 import { useAnimate, useInView } from "framer-motion";
+import jeet from "../../../assets/TESTCLIENTPROFILE/Jeet.jpg";
+import riya from "../../../assets/TESTCLIENTPROFILE/riyapropic.jpg";
+import Rachel from "../../../assets/TESTCLIENTPROFILE/Rachel Pedersen propic.jpg";
+import ALEX from "../../../assets/TESTCLIENTPROFILE/ALEX WALA.jpg";
 
 const ContentSection = () => {
-
-  const [scope, animate] = useAnimate()
-  const isInView = useInView(scope)
+  const [scope, animate] = useAnimate();
+  const isInView = useInView(scope);
 
   useEffect(() => {
     if (isInView) {
-      animate(scope.current, {animation: "popup 2s forwards"})
+      animate(scope.current, { animation: "popup 2s forwards" });
     }
-  }, [isInView, animate, scope])
+  }, [isInView, animate, scope]);
 
   return (
     <div className="content">
@@ -57,10 +60,10 @@ const ContentSection = () => {
                     <div>
                       <div>
                         <div>
-                          <img src={Aryan} alt="aryan" />
-                          <h3>Aryan</h3>
+                          <img src={jeet} alt="aryan" />
+                          <h3>Mr. Jeet Dubay</h3>
                         </div>
-                        <p>20M+</p>
+                        <p>40K+</p>
                       </div>
                     </div>
                   </div>
@@ -76,10 +79,10 @@ const ContentSection = () => {
                     <div>
                       <div>
                         <div>
-                          <img src={Aryan} alt="aryan" />
-                          <h3>Aryan</h3>
+                          <img src={ALEX} alt="aryan" />
+                          <h3>MAx Muller</h3>
                         </div>
-                        <p>20M+</p>
+                        <p>250K+</p>
                       </div>
                     </div>
                   </div>
@@ -97,10 +100,10 @@ const ContentSection = () => {
                     <div>
                       <div>
                         <div>
-                          <img src={Aryan} alt="aryan" />
-                          <h3>Aryan</h3>
+                          <img src={riya} alt="aryan" />
+                          <h3>Riya Yadav</h3>
                         </div>
-                        <p>20M+</p>
+                        <p>150K+</p>
                       </div>
                     </div>
                   </div>
@@ -116,10 +119,10 @@ const ContentSection = () => {
                     <div>
                       <div>
                         <div>
-                          <img src={Aryan} alt="aryan" />
-                          <h3>Aryan</h3>
+                          <img src={Rachel} alt="aryan" />
+                          <h3>Rachel Pedersen</h3>
                         </div>
-                        <p>20M+</p>
+                        <p>2M+</p>
                       </div>
                     </div>
                   </div>
