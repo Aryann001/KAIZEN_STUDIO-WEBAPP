@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "./ContentSection.css";
 import v1 from "../../../assets/videos/v1.mp4";
 import v2 from "../../../assets/videos/v2.mp4";
@@ -7,21 +7,21 @@ import v4 from "../../../assets/videos/v4.mp4";
 import Arrow from "../../../assets/arrow.png";
 import Star1 from "../../../assets/Hero.png";
 import Star2 from "../../../assets/Hero2.png";
-import { useAnimate, useInView } from "framer-motion";
+// import { useAnimate, useInView } from "framer-motion";
 import jeet from "../../../assets/TESTCLIENTPROFILE/Jeet.jpg";
 import riya from "../../../assets/TESTCLIENTPROFILE/riyapropic.jpg";
 import Rachel from "../../../assets/TESTCLIENTPROFILE/Rachel Pedersen propic.jpg";
 import ALEX from "../../../assets/TESTCLIENTPROFILE/ALEX WALA.jpg";
 
 const ContentSection = () => {
-  const [scope, animate] = useAnimate();
-  const isInView = useInView(scope);
+  // const [scope, animate] = useAnimate();
+  // const isInView = useInView(scope);
 
-  useEffect(() => {
-    if (isInView) {
-      animate(scope.current, { animation: "popup 3.5s forwards -0.5s ease-in-out" });
-    }
-  }, [isInView, animate, scope]);
+  // useEffect(() => {
+  //   if (isInView) {
+  //     animate(scope.current, { animation: "popup 3.5s forwards -0.5s ease-in-out" });
+  //   }
+  // }, [isInView, animate, scope]);
 
   return (
     <div className="content">
