@@ -160,9 +160,14 @@
     flex-direction: column;
   }
 
-  .aboutContainer > div:last-child > div > div:last-child {
+  .aboutContainer > div:last-child > div > div:first-child {
     width: 20vmax;
-    align-self: center !important;
+    align-self: center;
+  }
+
+  .aboutContainer > div:last-child > div > div:last-child {
+    width: 60%;
+    align-self: center;
   }
 
   .aboutImage {

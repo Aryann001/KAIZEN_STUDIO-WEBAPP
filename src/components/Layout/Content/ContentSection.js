@@ -80,7 +80,7 @@ const ContentSection = () => {
                       <div>
                         <div>
                           <img src={ALEX} alt="aryan" />
-                          <h3>MAx Muller</h3>
+                          <h3>Max Muller</h3>
                         </div>
                         <p>250K+</p>
                       </div>
