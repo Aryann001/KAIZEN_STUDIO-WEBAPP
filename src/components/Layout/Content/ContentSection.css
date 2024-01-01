@@ -8,7 +8,7 @@
   background-position: center;
   background-color: #1a1917;
   overflow: hidden;
-  padding-top: 17vmax;
+  padding-top: 17vmax !important;
   padding: 7vmax 0;
   padding-bottom: 9vmax;
 }
