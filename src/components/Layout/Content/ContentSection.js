@@ -27,7 +27,7 @@ const ContentSection = () => {
     <div className="content">
       <div>
         <div className="contentContainer">
-          <div ref={scope}>
+          <div>
             <div>
               <span className="ccspan-1">
                 <img src={Arrow} alt="star" />
