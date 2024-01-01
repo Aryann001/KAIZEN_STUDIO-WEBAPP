@@ -1,15 +1,29 @@
 import React from "react";
 import "./TestCard.css";
-import Aryan from "../../../assets/Aryan.jpeg";
 
-const TestCard = () => {
+const TestCard = (props) => {
+  const {
+    name,
+    testimonial,
+    username,
+    instagram,
+    profilePic,
+    profession,
+    pic,
+  } = props;
+
   return (
-    <div className="testCard">
+    <div className="testCard" style={{ "--x": pic }}>
       <div>
         <div className="testCardContainer">
           <div>
-            <div></div>
-            <p>Maria Puche</p>
+            <div>
+              <img src={pic} alt="pic" />
+            </div>
+            <span>
+              <p>{name}</p>
+              <p>{profession}</p>
+            </span>
           </div>
           {/*  */}
           <div>
@@ -19,14 +33,11 @@ const TestCard = () => {
                 alt="idk"
               />
             </span>
-            <p>
-              "Content flow was amazing to work with! They really create amazing
-              captivating content that really hooks the viewers! siness"
-            </p>
+            <p>{`"${testimonial}"`}</p>
             {/*  */}
             <div>
-              <img className="testClientImage" src={Aryan} alt="aryan" />
-              <p>Ella Ringrose</p>
+              <img className="testClientImage" src={profilePic} alt="aryan" />
+              <a href={instagram}>{username}</a>
             </div>
           </div>
         </div>

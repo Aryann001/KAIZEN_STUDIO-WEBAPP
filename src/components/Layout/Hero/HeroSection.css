@@ -175,4 +175,8 @@
   .h-2 > div > div > h3 {
     font-size: 3vmax;
   }
+
+  .heroimgspan {
+    display: none;
+  }
 }

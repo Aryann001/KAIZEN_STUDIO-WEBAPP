@@ -1,11 +1,9 @@
 import React, { useEffect } from "react";
-import "./AboutSection.css"
+import "./AboutSection.css";
 import Aryan from "../../../assets/Aryan.jpeg";
 import { useAnimate, useInView } from "framer-motion";
 
 const AboutSection = () => {
-
-
   const [scope1, animate1] = useAnimate();
   const isInView1 = useInView(scope1);
 
@@ -25,7 +23,17 @@ const AboutSection = () => {
     if (isInView3) {
       animate3(scope3.current, { animation: "popup 6s forwards" });
     }
-  }, [isInView1, animate1, scope1, isInView2, animate2, scope2, isInView3, animate3, scope3]);
+  }, [
+    isInView1,
+    animate1,
+    scope1,
+    isInView2,
+    animate2,
+    scope2,
+    isInView3,
+    animate3,
+    scope3,
+  ]);
 
   return (
     <div className="about">
@@ -45,14 +53,14 @@ const AboutSection = () => {
                 <h4>ASIM SAHIL</h4>
                 <div>
                   <p>
-                    HI, I'M ASIM SAHIL, A 22-YEAR-OLD VIDEO EDITOR. I'M A VISUAL
-                    STORYTELLER WITH A LOVE FOR CREATING CONTENT THAT ENGAGES
-                    AND INFORMS.
+                    You have 3 seconds to capture your audience's attention. If
+                    you don't hook them in the start, they're gone.
                   </p>
                   <p>
-                    I'M ALSO A STUDENT OF HUMAN PSYCHOLOGY, WHICH HELPS ME TO
-                    UNDERSTAND WHAT MAKES PEOPLE TICK AND HOW TO CREATE CONTENT
-                    THAT RESONATES WITH THEM.
+                    That's where I come in, I use my skills and experience to
+                    transform raw footage into engaging and visually stunning
+                    videos that will capture your audience's attention from
+                    start to finish.
                   </p>
                 </div>
               </div>
@@ -67,13 +75,15 @@ const AboutSection = () => {
                 <h4>YASH SONI</h4>
                 <div>
                   <p>
-                    A 22-YEAR-OLD VIDEO EDITOR. I'M A VISUAL STORYTELLER WITH A
-                    LOVE FOR CREATING CONTENT THAT ENGAGES AND INFORMS.
+                    Hey there! I'm Yash Soni, a 22-year-old video editor and
+                    aspiring cinematographer. My passion lies in crafting
+                    compelling visual narratives that captivate and inform.
                   </p>
                   <p>
-                    I'M ALSO A STUDENT OF HUMAN PSYCHOLOGY, WHICH HELPS ME TO
-                    UNDERSTAND WHAT MAKES PEOPLE TICK AND HOW TO CREATE CONTENT
-                    THAT RESONATES WITH THEM.
+                    Whether it's through editing techniques or the lens of a
+                    camera, I thrive on bringing stories to life where every
+                    frame tells a story, and every story makes an impact. Let's
+                    create magic together!
                   </p>
                 </div>
               </div>

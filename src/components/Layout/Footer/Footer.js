@@ -1,7 +1,7 @@
 import React, { useRef, useState } from "react";
 import "./Footer.css";
 import { InlineWidget } from "react-calendly";
-import Aryan from "../../../assets/Aryan.jpeg";
+import Aryan from "../../../assets/asimxpsykick.png";
 import { Link } from "react-router-dom";
 import { useScroll, useTransform, motion } from "framer-motion";
 
@@ -22,19 +22,30 @@ const Footer = () => {
     offset: ["start start", "end start"],
   });
 
-  const scrollHeading = useTransform(scrollYProgress, [0, 1], ["-100%%", "0%"]);
+  const scrollHeading = useTransform(scrollYProgress, [0, 1], ["-100%", "0%"]);
+
+  const date = new Date();
+  const timeZone = "Asia/Kolkata";
+
+  const fmt = new Intl.DateTimeFormat("en-US", {
+    timeStyle: "long",
+    timeZone,
+    hour12: false
+  });
 
   return (
     <div className="footer" ref={ref}>
       <div className="f-1">
         <div>
-          <div className="f-1-1" >
+          <div className="f-1-1">
             <motion.div style={{ y: scrollHeading }}>
               <img src={Aryan} alt="Kaizen Studio" />
               <p>A NEW ERA OF SOCIAL MEDIA</p>
             </motion.div>
             {/*  */}
-            <motion.div style={{ y: scrollHeading }}>DOMINANCE BEGINS HERE</motion.div>
+            <motion.div style={{ y: scrollHeading }}>
+              DOMINANCE BEGINS HERE
+            </motion.div>
           </div>
           {/*  */}
           <div className="f-1-2">
@@ -73,12 +84,12 @@ const Footer = () => {
         <div>
           <div className="f-2-1-1">
             <h3>VERSION</h3>
-            <p>2022 © Edition</p>
+            <p>2024 © Edition</p>
           </div>
           {/*  */}
           <div className="f-2-1-2">
             <h3>LOCAL TIME</h3>
-            <p>07:41 PM GMT+1</p>
+            <p>{fmt.format(date)}</p>
           </div>
         </div>
         {/*  */}

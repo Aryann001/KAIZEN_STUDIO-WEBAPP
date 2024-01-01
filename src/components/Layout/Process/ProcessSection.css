@@ -113,4 +113,9 @@
   .processCardContainer > div {
     width: 100%;
   }
+
+  .processCard {
+    height: 60vh;
+    padding: 17vmax 0;
+  }
 }

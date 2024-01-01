@@ -69,6 +69,7 @@
 
 .navBtn {
   outline: none;
+  text-decoration: none;
   border: 2px solid #e6c068;
   border-radius: 0.5vmax;
   padding: 1.1vmax 3vmax;

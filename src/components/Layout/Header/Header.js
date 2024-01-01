@@ -48,7 +48,7 @@ const Header = () => {
                 </div>
                 {/*  */}
                 <div className="hc-3">
-                  <button className="navBtn">Start Now</button>
+                  <a href="#contact" className="navBtn">Start Now</a>
                 </div>
               </Fragment>
             )}

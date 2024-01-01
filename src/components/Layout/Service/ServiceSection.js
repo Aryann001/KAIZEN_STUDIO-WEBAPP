@@ -25,7 +25,17 @@ const ServiceSection = () => {
     if (isInView3) {
       animate3(scope3.current, { animation: "popup 7s forwards" });
     }
-  }, [isInView1, animate1, scope1, isInView2, animate2, scope2, isInView3, animate3, scope3]);
+  }, [
+    isInView1,
+    animate1,
+    scope1,
+    isInView2,
+    animate2,
+    scope2,
+    isInView3,
+    animate3,
+    scope3,
+  ]);
 
   return (
     <Fragment>
@@ -33,8 +43,8 @@ const ServiceSection = () => {
         <div>
           <div className="serviceContainer">
             <div>
-              <h3>3 SIMPLE STEPS TO MAKE YOUR</h3>
-              <h3>BRAND GO VIRAL</h3>
+              <h3>THREE SIMPLE STEPS</h3>
+              <h3>FOR SUCCESS</h3>
             </div>
             {/*  */}
             <div>
@@ -42,10 +52,11 @@ const ServiceSection = () => {
                 <div>
                   <img src={Service1} alt="service1" />
                 </div>
-                <h4>SHARE YOUR RAW FOOTAGE WITH US</h4>
+                <h4>CONCEPTUALIZE & CRAFT</h4>
                 <p>
-                  OUR WRITERS WILL PICK THE BEST PARTS OF YOUR RAW/LONG-FORM
-                  VIDEOS
+                  IN THIS INITIAL PHASE, WE COLLABORATE CLOSELY TO UNDERSTAND
+                  AND ALIGN WITH YOUR VISION, CRAFTING A CONCEPT THAT RESONATES
+                  WITH YOUR BRAND AND AUDIENCE.
                 </p>
               </motion.div>
               {/*  */}
@@ -53,9 +64,11 @@ const ServiceSection = () => {
                 <div>
                   <img src={Service2} alt="service2" />
                 </div>
-                <h4>CREATE A FRESH STYLE</h4>
+                <h4>EXPERT EDITING & ENHANCEMENT</h4>
                 <p>
-                  OUR VIDEO ARTISTS WILL CREATE A UNIQUE STYLE FOR YOUR BRAND.
+                  OUR EDITING TEAM TAKES CHARGE, EMPLOYING ADVANCED TECHNIQUES
+                  TO REFINE YOUR FOOTAGE INTO A VISUALLY STUNNING AND ENGAGING
+                  NARRATIVE.
                 </p>
               </motion.div>
               {/*  */}
@@ -63,10 +76,11 @@ const ServiceSection = () => {
                 <div>
                   <img src={Service3} alt="service3" />
                 </div>
-                <h4>PACKAGING FOR GROWTH</h4>
+                <h4>OPTIMIZE FOR VIRALITY</h4>
                 <p>
-                  OUR MANAGERS AND COPYWRITERS WILL WRITE HOOKS TO STOP THE
-                  SCROLLS AND LEAVE THE VIEWERS IN AWE.
+                  THE FINAL TOUCH INVOLVES OPTIMIZING YOUR VIDEO FOR MAXIMUM
+                  SOCIAL MEDIA IMPACT, USING STRATEGIC TACTICS TO BOOST
+                  SHAREABILITY AND AUDIENCE REACH.
                 </p>
               </motion.div>
             </div>

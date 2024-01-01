@@ -58,7 +58,7 @@ const FAQsSection = () => {
             <div className="FAQsContent">
               <div>
                 <div onClick={() => setOpen1(!open1)}>
-                  <h2>Quetion</h2>
+                  <h2>What types of videos do you edit?</h2>
                   <span>
                     <IoIosArrowDown
                       className={open1 === true ? `openFaq` : `closeFaq`}
@@ -67,11 +67,8 @@ const FAQsSection = () => {
                 </div>
                 {/*  */}
                 <div className={open1 === true ? `show` : `notShow`}>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Nesciunt ab inventore necessitatibus, eius corrupti
-                  perspiciatis. Quia voluptas rem laboriosam, perspiciatis ipsam
-                  dicta soluta, magnam, inventore nulla est expedita! Natus
-                  voluptatem iure ducimus in sapiente. Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis perferendis eius reiciendis quisquam tempore illo ducimus saepe labore exercitationem suscipit, veniam recusandae non debitis quibusdam. Odit incidunt qui quis nesciunt autem libero perspiciatis reiciendis doloribus ducimus molestias sapiente molestiae quam, dolores voluptatem nostrum, voluptates natus sequi cumque, quas rerum repudiandae et inventore. Asperiores voluptatibus reiciendis neque magnam temporibus, ipsum voluptatum cum fugit impedit vitae fugiat aperiam consequuntur voluptatem. Labore hic accusamus quas quam ipsam provident quo consectetur optio repudiandae, fugiat, sequi nobis! Libero, eius voluptatibus? Illum nisi omnis, totam non vero tempora culpa. Sint esse laboriosam ipsam provident consequuntur nostrum.
+                  We specialize in editing various types of videos, including
+                  corporate content, social media videos, and wedding footage.
                 </div>
               </div>
             </div>
@@ -79,7 +76,7 @@ const FAQsSection = () => {
             <div className="FAQsContent">
               <div>
                 <div onClick={() => setOpen2(!open2)}>
-                  <h2>Quetion</h2>
+                  <h2>How does your video editing process work?</h2>
                   <span>
                     <IoIosArrowDown
                       className={open2 === true ? `openFaq` : `closeFaq`}
@@ -88,11 +85,9 @@ const FAQsSection = () => {
                 </div>
                 {/*  */}
                 <div className={open2 === true ? `show` : `notShow`}>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Nesciunt ab inventore necessitatibus, eius corrupti
-                  perspiciatis. Quia voluptas rem laboriosam, perspiciatis ipsam
-                  dicta soluta, magnam, inventore nulla est expedita! Natus
-                  voluptatem iure ducimus in sapiente.
+                  Our process involves initial consultation, file submission,
+                  editing, and final delivery to ensure a smooth experience for
+                  our clients.
                 </div>
               </div>
             </div>
@@ -100,7 +95,10 @@ const FAQsSection = () => {
             <div className="FAQsContent">
               <div>
                 <div onClick={() => setOpen3(!open3)}>
-                  <h2>Quetion</h2>
+                  <h2>
+                    What is the typical turnaround time for video editing
+                    projects?
+                  </h2>
                   <span>
                     <IoIosArrowDown
                       className={open3 === true ? `openFaq` : `closeFaq`}
@@ -109,11 +107,11 @@ const FAQsSection = () => {
                 </div>
                 {/*  */}
                 <div className={open3 === true ? `show` : `notShow`}>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Nesciunt ab inventore necessitatibus, eius corrupti
-                  perspiciatis. Quia voluptas rem laboriosam, perspiciatis ipsam
-                  dicta soluta, magnam, inventore nulla est expedita! Natus
-                  voluptatem iure ducimus in sapiente.
+                  Turnaround times vary based on project complexity, but we
+                  strive to provide estimated completion times during the
+                  consultation phase. Additionally, for short-form videos, we
+                  offer a swift delivery option, aiming to complete and deliver
+                  them within 24 hours.
                 </div>
               </div>
             </div>
@@ -121,7 +119,9 @@ const FAQsSection = () => {
             <div className="FAQsContent">
               <div>
                 <div onClick={() => setOpen4(!open4)}>
-                  <h2>Quetion</h2>
+                  <h2>
+                    What software and tools do you use for video editing?{" "}
+                  </h2>
                   <span>
                     <IoIosArrowDown
                       className={open4 === true ? `openFaq` : `closeFaq`}
@@ -130,11 +130,27 @@ const FAQsSection = () => {
                 </div>
                 {/*  */}
                 <div className={open4 === true ? `show` : `notShow`}>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Nesciunt ab inventore necessitatibus, eius corrupti
-                  perspiciatis. Quia voluptas rem laboriosam, perspiciatis ipsam
-                  dicta soluta, magnam, inventore nulla est expedita! Natus
-                  voluptatem iure ducimus in sapiente.
+                  We use industry-standard software and tools, including Adobe
+                  Premiere Pro and After Effects, to guarantee high-quality
+                  video editing that meets professional standards.
+                </div>
+              </div>
+            </div>
+            {/*  */}
+            <div className="FAQsContent">
+              <div>
+                <div onClick={() => setOpen4(!open4)}>
+                  <h2>Can I request revisions to the edited video?</h2>
+                  <span>
+                    <IoIosArrowDown
+                      className={open4 === true ? `openFaq` : `closeFaq`}
+                    />
+                  </span>
+                </div>
+                {/*  */}
+                <div className={open4 === true ? `show` : `notShow`}>
+                  Yes, we allow revisions, and our policy details the number of
+                  revisions included with each package.
                 </div>
               </div>
             </div>

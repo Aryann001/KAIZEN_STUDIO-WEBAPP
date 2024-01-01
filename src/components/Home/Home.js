@@ -39,7 +39,9 @@ const Home = () => {
         <FAQsSection />
       </div>
 
-      <Footer />
+      <div id="contact">
+        <Footer />
+      </div>
     </Fragment>
   );
 };
