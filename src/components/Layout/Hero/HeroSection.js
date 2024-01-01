@@ -16,7 +16,14 @@ const HeroSection = () => {
     offset: ["start start", "end start"],
   });
 
-  const scrollHeading = useTransform(scrollYProgress, [0, 1], ["0%", "100%"]);
+  let scrollHeading;
+  
+  if(window.innerWidth <= Number(750)) {
+    scrollHeading = useTransform(scrollYProgress, [0, 1], ["0%", "50%"]);
+  } else {
+    scrollHeading = useTransform(scrollYProgress, [0, 1], ["0%", "100%"]);
+  }
+
   const scrollChalla = useTransform(scrollYProgress, [0, 1], ["0%", "50%"]);
   return (
     <Fragment>
