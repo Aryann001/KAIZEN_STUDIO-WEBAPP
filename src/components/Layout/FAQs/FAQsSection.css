@@ -83,6 +83,7 @@
   display: flex;
   flex-direction: column;
   gap: 3vmax;
+  cursor: pointer;
 }
 
 .FAQsContent > div > div:first-child {
