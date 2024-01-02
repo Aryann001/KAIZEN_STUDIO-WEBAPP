@@ -56,6 +56,8 @@
 }
 
 .aboutContainer > div:last-child > div > div:first-child {
+  width: 22vmax;
+  height: 22vmax;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -145,6 +147,31 @@
   flex-direction: row-reverse;
 }
 
+.social {
+  padding-top: 2vmax;
+  transition: all ease-in-out;
+}
+
+.s2 {
+  align-self: flex-end
+}
+
+.social > a {
+  text-decoration: none;
+  padding: 1vmax 2vmax;
+  border: 2px solid #e6c068;
+  font-size: 1.2vmax;
+  color: #e6c068;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.social > a:last-child {
+  border-left: none;
+  background-color: #e6c068;
+  color: #1a1917;
+}
+
 @media screen and (max-width: 1050px) {
   .aboutContainer > div:last-child {
     gap: 5vmax;
@@ -162,6 +189,7 @@
 
   .aboutContainer > div:last-child > div > div:first-child {
     width: 20vmax;
+    height: 20vmax;
     align-self: center;
   }
 

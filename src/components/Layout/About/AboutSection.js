@@ -15,13 +15,13 @@ const AboutSection = () => {
 
   useEffect(() => {
     if (isInView1) {
-      animate1(scope1.current, { animation: "popup 2s forwards" });
+      animate1(scope1.current, { animation: "popup 1.25s forwards" });
     }
     if (isInView2) {
-      animate2(scope2.current, { animation: "popup 4s forwards" });
+      animate2(scope2.current, { animation: "popup 2.5s forwards" });
     }
     if (isInView3) {
-      animate3(scope3.current, { animation: "popup 6s forwards" });
+      animate3(scope3.current, { animation: "popup 4s forwards" });
     }
   }, [
     isInView1,
@@ -63,6 +63,14 @@ const AboutSection = () => {
                     start to finish.
                   </p>
                 </div>
+                <div className="social">
+                  <a href="https://www.instagram.com/asimsahiledits">
+                    Instagram
+                  </a>
+                  <a href="https://drive.google.com/file/d/1uhKqedKi5ehrE1QP1kqcrn_pHX_QWHm8/view?usp=drivesdk">
+                    Resume
+                  </a>
+                </div>
               </div>
             </div>
             {/*  */}
@@ -85,6 +93,14 @@ const AboutSection = () => {
                     frame tells a story, and every story makes an impact. Let's
                     create magic together!
                   </p>
+                </div>
+                <div className="social s2">
+                  <a href="https://drive.google.com/file/d/14-uJ9CbAzKxp2ynb3JF88jCaK4DqRvH-/view?usp=drive_link">
+                    Resume
+                  </a>
+                  <a href="https://www.instagram.com/psykick.tunes">
+                    Instagram
+                  </a>
                 </div>
               </div>
             </div>

@@ -17,13 +17,13 @@ const ServiceSection = () => {
 
   useEffect(() => {
     if (isInView1) {
-      animate1(scope1.current, { animation: "popup 1s forwards" });
+      animate1(scope1.current, { animation: "popup 0.75s forwards" });
     }
     if (isInView2) {
-      animate2(scope2.current, { animation: "popup 4s forwards" });
+      animate2(scope2.current, { animation: "popup 2s forwards" });
     }
     if (isInView3) {
-      animate3(scope3.current, { animation: "popup 7s forwards" });
+      animate3(scope3.current, { animation: "popup 4s forwards" });
     }
   }, [
     isInView1,

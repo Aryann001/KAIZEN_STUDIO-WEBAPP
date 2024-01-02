@@ -2,7 +2,6 @@ import React, { useRef, useState } from "react";
 import "./Footer.css";
 import { InlineWidget } from "react-calendly";
 import Aryan from "../../../assets/asimxpsykick.png";
-import { Link } from "react-router-dom";
 import { useScroll, useTransform, motion } from "framer-motion";
 
 const Footer = () => {
@@ -53,7 +52,7 @@ const Footer = () => {
           </div>
           {/*  */}
           <div className="f-1-3">
-            <Link
+            <a
               className="parallax-button"
               href="mailto:asimsahilk@gmail.com"
               onMouseMove={mouseMoveHandler}
@@ -63,9 +62,9 @@ const Footer = () => {
               }}
             >
               asimsahilk@gmail.com
-            </Link>
+            </a>
             {/*  */}
-            <Link
+            <a
               className="parallax-button"
               href="tel:7976718018"
               onMouseMove={mouseMoveHandler}
@@ -75,7 +74,7 @@ const Footer = () => {
               }}
             >
               7976718018
-            </Link>
+            </a>
           </div>
         </div>
       </div>
@@ -98,7 +97,7 @@ const Footer = () => {
           <ul>
             <li>
               <a
-                href="https://instagram.com"
+                href="/"
                 onMouseMove={mouseMoveHandler}
                 style={{
                   "--x": `${position.x}px`,
@@ -119,7 +118,7 @@ const Footer = () => {
             {/*  */}
             <li>
               <a
-                href="https://instagram.com"
+                href="/"
                 onMouseMove={mouseMoveHandler}
                 style={{
                   "--x": `${position.x}px`,
@@ -140,7 +139,7 @@ const Footer = () => {
             {/*  */}
             <li>
               <a
-                href="https://instagram.com"
+                href="/"
                 onMouseMove={mouseMoveHandler}
                 style={{
                   "--x": `${position.x}px`,
@@ -161,7 +160,7 @@ const Footer = () => {
             {/*  */}
             <li>
               <a
-                href="https://instagram.com"
+                href="/"
                 onMouseMove={mouseMoveHandler}
                 style={{
                   "--x": `${position.x}px`,
