@@ -48,7 +48,9 @@ const Header = () => {
                 </div>
                 {/*  */}
                 <div className="hc-3">
-                  <a href="#contact" className="navBtn">Start Now</a>
+                  <a href="#contact" className="navBtn">
+                    Start Now
+                  </a>
                 </div>
               </Fragment>
             )}
@@ -87,6 +89,12 @@ const Header = () => {
             <li>
               <a href="#faqs" onClick={() => setActive(!active)}>
                 FAQs
+              </a>
+            </li>
+            {/*  */}
+            <li>
+              <a href="#contact" onClick={() => setActive(!active)}>
+                Start Now
               </a>
             </li>
           </ul>
