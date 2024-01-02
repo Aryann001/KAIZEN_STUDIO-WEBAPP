@@ -68,7 +68,7 @@ const AboutSection = () => {
                     Instagram
                   </a>
                   <a href="https://drive.google.com/file/d/1uhKqedKi5ehrE1QP1kqcrn_pHX_QWHm8/view?usp=drivesdk">
-                    Resume
+                    Portfolio
                   </a>
                 </div>
               </div>
@@ -96,7 +96,7 @@ const AboutSection = () => {
                 </div>
                 <div className="social s2">
                   <a href="https://drive.google.com/file/d/14-uJ9CbAzKxp2ynb3JF88jCaK4DqRvH-/view?usp=drive_link">
-                    Resume
+                    Portfolio
                   </a>
                   <a href="https://www.instagram.com/psykick.tunes">
                     Instagram

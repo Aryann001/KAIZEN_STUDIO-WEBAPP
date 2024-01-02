@@ -39,12 +39,12 @@ const Footer = () => {
           <div className="f-1-1">
             <motion.div style={{ y: scrollHeading }}>
               <img src={Aryan} alt="Kaizen Studio" />
-              <p>A NEW ERA OF SOCIAL MEDIA</p>
+              <p>A NEW ERA OF SOCIAL MEDIA DOMINANCE BEGINS HERE</p>
             </motion.div>
             {/*  */}
-            <motion.div style={{ y: scrollHeading }}>
+            {/* <motion.div style={{ y: scrollHeading }}>
               DOMINANCE BEGINS HERE
-            </motion.div>
+            </motion.div> */}
           </div>
           {/*  */}
           <div className="f-1-2">
