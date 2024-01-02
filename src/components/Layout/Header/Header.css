@@ -6,7 +6,8 @@
   position: fixed;
   padding-top: 1vmax;
   z-index: 10;
-  background-color: transparent;
+  backdrop-filter: blur(3px);
+  background-color: #0000002b;
 }
 
 .headerContainer {
