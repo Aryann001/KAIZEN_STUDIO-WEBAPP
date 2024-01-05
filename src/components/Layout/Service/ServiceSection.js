@@ -54,9 +54,9 @@ const ServiceSection = () => {
                 </div>
                 <h4>CONCEPTUALIZE & CRAFT</h4>
                 <p>
-                  IN THIS INITIAL PHASE, WE COLLABORATE CLOSELY TO UNDERSTAND
-                  AND ALIGN WITH YOUR VISION, CRAFTING A CONCEPT THAT RESONATES
-                  WITH YOUR BRAND AND AUDIENCE.
+                  In this initial phase, we collaborate closely to understand
+                  and align with your vision, crafting a concept that resonates
+                  with your brand and audience.
                 </p>
               </motion.div>
               {/*  */}
@@ -66,9 +66,9 @@ const ServiceSection = () => {
                 </div>
                 <h4>EXPERT EDITING & ENHANCEMENT</h4>
                 <p>
-                  OUR EDITING TEAM TAKES CHARGE, EMPLOYING ADVANCED TECHNIQUES
-                  TO REFINE YOUR FOOTAGE INTO A VISUALLY STUNNING AND ENGAGING
-                  NARRATIVE.
+                  Our editing team takes charge, employing advanced techniques
+                  to refine your footage into a visually stunning and engaging
+                  narrative.
                 </p>
               </motion.div>
               {/*  */}
@@ -78,9 +78,9 @@ const ServiceSection = () => {
                 </div>
                 <h4>OPTIMIZE FOR VIRALITY</h4>
                 <p>
-                  THE FINAL TOUCH INVOLVES OPTIMIZING YOUR VIDEO FOR MAXIMUM
-                  SOCIAL MEDIA IMPACT, USING STRATEGIC TACTICS TO BOOST
-                  SHAREABILITY AND AUDIENCE REACH.
+                  The final touch involves optimizing your video for maximum
+                  social media impact, using strategic tactics to boost
+                  shareability and audience reach.
                 </p>
               </motion.div>
             </div>

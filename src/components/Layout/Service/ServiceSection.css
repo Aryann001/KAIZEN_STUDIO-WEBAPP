@@ -86,7 +86,8 @@
 }
 
 .serviceContainer > div:last-child > div > h4 {
-  text-align: center;
+  text-align: start;
+  width: 80%;
   font-size: 1.6vmax;
   color: #dfac35;
   font-family: serif;
@@ -95,7 +96,8 @@
 }
 
 .serviceContainer > div:last-child > div > p {
-  text-align: center;
+  text-align: start;
+  width: 80%;
   font-size: 1.2vmax;
   color: #e6c068;
   margin: 0 2.5vmax;

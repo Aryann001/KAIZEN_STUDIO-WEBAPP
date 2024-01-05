@@ -158,11 +158,12 @@
 .social > a {
   text-decoration: none;
   padding: 1vmax 2vmax;
-  border: 2px solid #e6c068;
-  font-size: 1.2vmax;
+  font-size: 0.8vmax;
   color: #e6c068;
   text-transform: uppercase;
   font-weight: 600;
+  font-family: serif;
+  letter-spacing: 0.2vmax;
 }
 
 .social > a:last-child {
@@ -199,5 +200,9 @@
 
   .aboutImage {
     transform: none;
+  }
+
+  .social > a {
+    font-size: 1.2vmax;
   }
 }
