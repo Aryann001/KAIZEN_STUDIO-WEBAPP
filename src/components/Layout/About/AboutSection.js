@@ -50,8 +50,10 @@ const AboutSection = () => {
               </div>
               {/*  */}
               <div>
-                <h4>ASIM SAHIL</h4>
-                <p>{`[ Founder ]`}</p>
+                <h4>
+                  ASIM SAHIL
+                  <p>{`Co-Founder`}</p>
+                </h4>
                 <div>
                   <p>
                     You have 3 seconds to capture your audience's attention. If
@@ -81,8 +83,10 @@ const AboutSection = () => {
               </div>
               {/*  */}
               <div>
-                <h4>YASH SONI</h4>
-                <p>{`[ Co-Founder ]`}</p>
+                <h4>
+                  YASH SONI
+                  <p>{`Co-Founder`}</p>
+                </h4>
                 <div>
                   <p>
                     Hey there! I'm Yash Soni, a 22-year-old video editor and

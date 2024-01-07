@@ -78,18 +78,19 @@
   z-index: 2;
 }
 
-.aboutContainer > div:last-child > div > div:last-child > p {
+.aboutContainer > div:last-child > div > div:last-child > h4 > p {
+  margin-top: 0.5vmax;
   font-size: 1.2vmax;
   color: #e6c068;
   font-family: serif;
   letter-spacing: 0.2vmax;
 }
 
-.a-card1 > div:last-child > p {
+.a-card1 > div:last-child > h4 > p {
   text-align: start;
 }
 
-.a-card2 > div:last-child > p {
+.a-card2 > div:last-child > h4 > p {
   text-align: end;
 }
 
