@@ -1,11 +1,11 @@
 import React from "react";
 import "./ProcessSection.css";
 import { motion, useTransform, useViewportScroll } from "framer-motion";
-import Process from "../../../assets/Prosses.png"
-import p1 from "../../../assets/GIF/1.png"
-import p2 from "../../../assets/GIF/2.png"
-import p3 from "../../../assets/GIF/3.png"
-import p4 from "../../../assets/GIF/4.png"
+import Process from "../../../assets/Prosses.png";
+import p1 from "../../../assets/GIF/1.png";
+import p2 from "../../../assets/GIF/2.png";
+import p3 from "../../../assets/GIF/3.png";
+import p4 from "../../../assets/GIF/4.png";
 
 const ProcessSection = () => {
   const { scrollY } = useViewportScroll();
@@ -23,13 +23,32 @@ const ProcessSection = () => {
           </div>
 
           <div className="processCard">
-            <div>
+            {/* <div>
               <img src={p1} alt="aryan" />
               <h3>Send your raw footage</h3>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
+      {/*  */}
+      <motion.div
+        style={{
+          y: 0,
+          position: "absolute",
+          inset: 0,
+          zIndex: 3,
+        }}
+        className="processCardContainer"
+      >
+        <div></div>
+
+        <div className="processCard">
+          <div>
+            <img src={p1} alt="aryan" />
+            <h3>Send your raw footage</h3>
+          </div>
+        </div>
+      </motion.div>
       {/*  */}
       <motion.div
         style={{
@@ -38,7 +57,7 @@ const ProcessSection = () => {
           inset: 0,
           zIndex: 3,
         }}
-        className="processCardContainer processCardContainerBack"
+        className="processCardContainer"
       >
         <div></div>
 
@@ -54,11 +73,10 @@ const ProcessSection = () => {
         style={{
           y: y2,
           position: "sticky",
-          top: 0,
-          left: 0,
+          inset: 0,
           zIndex: 4,
         }}
-        className="processCardContainer processCardContainerBack"
+        className="processCardContainer"
       >
         <div></div>
 
@@ -94,11 +112,10 @@ const ProcessSection = () => {
         style={{
           y: y3,
           position: "sticky",
-          top: 0,
-          left: 0,
+          inset: 0,
           zIndex: 6,
         }}
-        className="processCardContainer processCardContainerBack"
+        className="processCardContainer"
       >
         <div></div>
 

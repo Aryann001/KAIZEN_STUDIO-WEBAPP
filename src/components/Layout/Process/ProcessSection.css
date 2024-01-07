@@ -28,10 +28,10 @@
 }
 
 .processCardContainer {
-  position: relative;
   display: flex;
   padding: 4vmax;
   inset: 0;
+  overflow: hidden;
 }
 
 .processCardContainer > div:first-child {
@@ -47,10 +47,9 @@
   animation: animate2 5s infinite 0s;
 }
 
-/* .processCardContainerBack {
-    position: relative !important;
-    transition: all ease-in-out;
-} */
+.processCardContainerBack {
+  transform: translateY(20%);
+}
 
 .processCardContainer > div {
   width: 50%;

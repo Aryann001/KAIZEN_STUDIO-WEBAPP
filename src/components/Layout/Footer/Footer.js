@@ -48,7 +48,7 @@ const Footer = () => {
           </div>
           {/*  */}
           <div className="f-1-2">
-            <InlineWidget url="https://calendly.com/yashsoni" />
+            <InlineWidget styles={{width: "100%", height: "120vh"}} url="https://calendly.com/asimsahil/let-s-talk?month=2024-01" />
           </div>
           {/*  */}
           <div className="f-1-3">

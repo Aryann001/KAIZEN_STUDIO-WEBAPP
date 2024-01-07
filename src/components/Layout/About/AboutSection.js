@@ -51,6 +51,7 @@ const AboutSection = () => {
               {/*  */}
               <div>
                 <h4>ASIM SAHIL</h4>
+                <p>{`[ Founder ]`}</p>
                 <div>
                   <p>
                     You have 3 seconds to capture your audience's attention. If
@@ -81,6 +82,7 @@ const AboutSection = () => {
               {/*  */}
               <div>
                 <h4>YASH SONI</h4>
+                <p>{`[ Co-Founder ]`}</p>
                 <div>
                   <p>
                     Hey there! I'm Yash Soni, a 22-year-old video editor and
