@@ -4,9 +4,9 @@ import v1 from "../../../assets/videos/v1.mp4";
 import v2 from "../../../assets/videos/v2.mp4";
 import v3 from "../../../assets/videos/v3.mp4";
 import v4 from "../../../assets/videos/v4.mp4";
-import Arrow from "../../../assets/arrow.png";
-import Star1 from "../../../assets/Hero.png";
-import Star2 from "../../../assets/Hero2.png";
+// import Arrow from "../../../assets/arrow.png";
+// import Star1 from "../../../assets/Hero.png";
+// import Star2 from "../../../assets/Hero2.png";
 // import { useAnimate, useInView } from "framer-motion";
 import jeet from "../../../assets/TESTCLIENTPROFILE/Jeet.jpg";
 import riya from "../../../assets/TESTCLIENTPROFILE/riyapropic.jpg";
@@ -30,13 +30,13 @@ const ContentSection = () => {
           <div>
             <div>
               <span className="ccspan-1">
-                <img src={Arrow} alt="star" />
+                <img src={`https://res.cloudinary.com/de0lgy8rs/image/upload/v1705251465/Kaizen%20Studio/f61h8fzhbcmtqmwc45uk.png`} alt="star" />
               </span>
               <span className="ccspan-2">
-                <img src={Star1} alt="star" />
+                <img src={`https://res.cloudinary.com/de0lgy8rs/image/upload/v1705251466/Kaizen%20Studio/ujcjadtsyuhqbokbb6lm.png`} alt="star" />
               </span>
               <span className="ccspan-3">
-                <img src={Star2} alt="star" />
+                <img src={`https://res.cloudinary.com/de0lgy8rs/image/upload/v1705251465/Kaizen%20Studio/htbjuotlox7p4hvb6m6h.png`} alt="star" />
               </span>
               <h3 className="cch-1">
                 <span>FROM</span> START-UP TO STAR{" "}
