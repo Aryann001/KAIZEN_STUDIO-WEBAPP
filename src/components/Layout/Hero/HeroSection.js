@@ -28,27 +28,27 @@ const HeroSection = () => {
     <Fragment>
       <div className="Hero" ref={ref}>
         <motion.span className="heroChalla-1" style={{ y: scrollChalla }}>
-          <img src={`https://res.cloudinary.com/de0lgy8rs/image/upload/v1705251466/Kaizen%20Studio/qnbr08mkim3varh6satd.png`} alt="Challa" />
+          <img loading="lazy" src={`https://res.cloudinary.com/de0lgy8rs/image/upload/v1705251466/Kaizen%20Studio/qnbr08mkim3varh6satd.png`} alt="Challa" />
         </motion.span>
         <motion.span className="heroChalla-2" style={{ y: scrollChalla }}>
-          <img src={`https://res.cloudinary.com/de0lgy8rs/image/upload/v1705251466/Kaizen%20Studio/qnbr08mkim3varh6satd.png`} alt="Challa" />
+          <img loading="lazy" src={`https://res.cloudinary.com/de0lgy8rs/image/upload/v1705251466/Kaizen%20Studio/qnbr08mkim3varh6satd.png`} alt="Challa" />
         </motion.span>
         <div>
           <div className="HeroContainer">
             <div className="h-1">
               <div>
-                <img className="heroImage" src={`https://res.cloudinary.com/de0lgy8rs/image/upload/v1705251467/Kaizen%20Studio/qkplojejwkn8okwixzsp.png`} alt="facebook" />
+                <img loading="lazy" className="heroImage" src={`https://res.cloudinary.com/de0lgy8rs/image/upload/v1705251467/Kaizen%20Studio/qkplojejwkn8okwixzsp.png`} alt="facebook" />
               </div>
               {/*  */}
               <div>
-                <img className="heroImage tiktok" src={`https://res.cloudinary.com/de0lgy8rs/image/upload/v1705251468/Kaizen%20Studio/nkezgp3ylpr5ucmyvc94.png`} alt="facebook" />
+                <img loading="lazy" className="heroImage tiktok" src={`https://res.cloudinary.com/de0lgy8rs/image/upload/v1705251468/Kaizen%20Studio/nkezgp3ylpr5ucmyvc94.png`} alt="facebook" />
               </div>
             </div>
             {/*  */}
             <motion.div className="h-2" style={{ y: scrollHeading, zIndex: 10 }}>
               <div>
                 <span className="heroimgspan">
-                  <img src={`https://res.cloudinary.com/de0lgy8rs/image/upload/v1705251465/Kaizen%20Studio/f61h8fzhbcmtqmwc45uk.png`} alt="arrow" />
+                  <img loading="lazy" src={`https://res.cloudinary.com/de0lgy8rs/image/upload/v1705251465/Kaizen%20Studio/f61h8fzhbcmtqmwc45uk.png`} alt="arrow" />
                 </span>
                 <div>
                   <h3>START, SCALE & SKYROCKET</h3>
@@ -61,6 +61,7 @@ const HeroSection = () => {
             <div className="h-3">
               <div>
                 <img
+                  loading="lazy"
                   className="heroImage instagram"
                   src={`https://res.cloudinary.com/de0lgy8rs/image/upload/v1705251467/Kaizen%20Studio/hvb0ekdrdyadz95r2rbs.png`}
                   alt="facebook"
@@ -68,7 +69,7 @@ const HeroSection = () => {
               </div>
               {/*  */}
               <div>
-                <img className="heroImage" src={`https://res.cloudinary.com/de0lgy8rs/image/upload/v1705251467/Kaizen%20Studio/ndstl3y1bumlyyy2ilge.png`} alt="facebook" />
+                <img loading="lazy" className="heroImage" src={`https://res.cloudinary.com/de0lgy8rs/image/upload/v1705251467/Kaizen%20Studio/ndstl3y1bumlyyy2ilge.png`} alt="facebook" />
               </div>
             </div>
           </div>

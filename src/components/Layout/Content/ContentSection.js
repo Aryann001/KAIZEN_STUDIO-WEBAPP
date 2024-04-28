@@ -30,13 +30,13 @@ const ContentSection = () => {
           <div>
             <div>
               <span className="ccspan-1">
-                <img src={`https://res.cloudinary.com/de0lgy8rs/image/upload/v1705251465/Kaizen%20Studio/f61h8fzhbcmtqmwc45uk.png`} alt="star" />
+                <img loading="lazy" src={`https://res.cloudinary.com/de0lgy8rs/image/upload/v1705251465/Kaizen%20Studio/f61h8fzhbcmtqmwc45uk.png`} alt="star" />
               </span>
               <span className="ccspan-2">
-                <img src={`https://res.cloudinary.com/de0lgy8rs/image/upload/v1705251466/Kaizen%20Studio/ujcjadtsyuhqbokbb6lm.png`} alt="star" />
+                <img loading="lazy" src={`https://res.cloudinary.com/de0lgy8rs/image/upload/v1705251466/Kaizen%20Studio/ujcjadtsyuhqbokbb6lm.png`} alt="star" />
               </span>
               <span className="ccspan-3">
-                <img src={`https://res.cloudinary.com/de0lgy8rs/image/upload/v1705251465/Kaizen%20Studio/htbjuotlox7p4hvb6m6h.png`} alt="star" />
+                <img loading="lazy" src={`https://res.cloudinary.com/de0lgy8rs/image/upload/v1705251465/Kaizen%20Studio/htbjuotlox7p4hvb6m6h.png`} alt="star" />
               </span>
               <h3 className="cch-1">
                 <span>FROM</span> START-UP TO STAR{" "}

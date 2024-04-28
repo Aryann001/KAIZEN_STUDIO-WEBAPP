@@ -19,7 +19,7 @@ const ProcessSection = () => {
       <div className="processStatic">
         <div className="processCardContainer">
           <div>
-            <img src={Process} alt="Process" />
+            <img loading="lazy" src={Process} alt="Process" />
           </div>
 
           <div className="processCard">
@@ -44,7 +44,7 @@ const ProcessSection = () => {
 
         <div className="processCard">
           <div>
-            <img src={p1} alt="aryan" />
+            <img loading="lazy" src={p1} alt="aryan" />
             <h3>Send your raw footage</h3>
           </div>
         </div>
@@ -63,7 +63,7 @@ const ProcessSection = () => {
 
         <div className="processCard">
           <div>
-            <img src={p2} alt="aryan" />
+            <img loading="lazy" src={p2} alt="aryan" />
             <h3>We help you with scripting and hooks on notion if required</h3>
           </div>
         </div>
@@ -82,7 +82,7 @@ const ProcessSection = () => {
 
         <div className="processCard">
           <div>
-            <img src={p3} alt="aryan" />
+            <img loading="lazy" src={p3} alt="aryan" />
             <h3>Communicate with the team on WhatsApp.</h3>
           </div>
         </div>
@@ -121,7 +121,7 @@ const ProcessSection = () => {
 
         <div className="processCard">
           <div>
-            <img src={p4} alt="aryan" />
+            <img loading="lazy" src={p4} alt="aryan" />
             <h3>Pubilsh or let our managers take care of publishing</h3>
           </div>
         </div>

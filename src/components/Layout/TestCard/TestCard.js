@@ -18,7 +18,7 @@ const TestCard = (props) => {
         <div className="testCardContainer">
           <div>
             <div>
-              <img src={pic} alt="pic" />
+              <img loading="lazy" src={pic} alt="pic" />
             </div>
             <span>
               <p>{name}</p>
@@ -29,6 +29,7 @@ const TestCard = (props) => {
           <div>
             <span>
               <img
+                loading="lazy"
                 src="https://assets-global.website-files.com/64fad25f8884cb2d680a1052/64fb0d9a3dc59b592ac6cf08_quote.svg"
                 alt="idk"
               />
@@ -36,7 +37,7 @@ const TestCard = (props) => {
             <p>{`"${testimonial}"`}</p>
             {/*  */}
             <div>
-              <img className="testClientImage" src={profilePic} alt="aryan" />
+              <img loading="lazy" className="testClientImage" src={profilePic} alt="aryan" />
               <a href={instagram}>{username}</a>
             </div>
           </div>

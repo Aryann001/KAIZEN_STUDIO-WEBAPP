@@ -50,7 +50,7 @@ const ServiceSection = () => {
             <div>
               <motion.div className="s-card1" ref={scope1}>
                 <div>
-                  <img src={Service1} alt="service1" />
+                  <img loading="lazy" src={Service1} alt="service1" />
                 </div>
                 <h4>CONCEPTUALIZE & CRAFT</h4>
                 <p>
@@ -62,7 +62,7 @@ const ServiceSection = () => {
               {/*  */}
               <motion.div className="s-card2" ref={scope2}>
                 <div>
-                  <img src={Service2} alt="service2" />
+                  <img loading="lazy" src={Service2} alt="service2" />
                 </div>
                 <h4>EXPERT EDITING & ENHANCEMENT</h4>
                 <p>
@@ -74,7 +74,7 @@ const ServiceSection = () => {
               {/*  */}
               <motion.div className="s-card3" ref={scope3}>
                 <div>
-                  <img src={Service3} alt="service3" />
+                  <img loading="lazy" src={Service3} alt="service3" />
                 </div>
                 <h4>OPTIMIZE FOR VIRALITY</h4>
                 <p>
